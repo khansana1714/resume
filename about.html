@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+            <div class="company-details">
+                <h1 class="no-head">TECNO FAST INDUSTRIES</h1>
+                <p class="no-heads">GST Number: 27LOYPK9521B1ZB</p>
+            </div>
+            <span class="menu-icon" onclick="openNav()">&#9776;</span>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav id="side-nav" class="side-nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+   
+    <section class="hero">
+        <div class="hero-content">
+            <h1>EFFICIENCY, RELIABILITY, RESULTS.</h1>
+            <p>Our industrial equipment keeps your business moving forward.</p>
+            <button><a href="https://wa.link/58on1d" class="explore">Explore Now</a></button>
+            <p>9579618751 / 9075866419</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div  class="about-container">
+            <div class="about-section">
+                <img src="images/vision.png" alt="Our Mission">
+                <h2>Our Mission</h2>
+                <p>At TECNO FAST INDUSTRIES, our mission is to provide high-quality industrial equipment that meets the needs of our clients. We strive to provide our customers, clients with a vast array of products that not only meet but exceed their expectations.</p>
+            </div>
+            <div class="about-section">
+                <img src="images/mission.png" alt="Our Vision">
+                <h2>Our Vision</h2>
+                <p>Our Vision is to provide a professional experience to those who are passionate about delivering the best possible solutions for our clients. We work together to ensure that our equipment meets the highest standards of quality and reliability.</p>
+            </div>     
+            <div class="about-section">
+                <img src="images/history.png" alt="Why Us">
+                <h2>Why Us</h2>
+                <p>By offering optimum quality products, we have been able to gain the faith and support of our valuable clients. We have the experience and dedication needed to drive our business forward.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 SK Industries. All rights reserved.</p>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("side-nav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("side-nav").style.width = "0";
+        }
+    </script>
+</body>
+</html>

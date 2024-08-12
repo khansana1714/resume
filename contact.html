@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="logo-dis">
+        <div class="logo-container">
+            <div class="header-container">
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+            <div class="company-details">
+                <h1 class="no-head">TECNO FAST INDUSTRIES</h1>
+                <p class="no-heads">GST Number: 27LOYPK9521B1ZB</p>
+            </div>
+            </div>
+            
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>EFFICIENCY, RELIABILITY, RESULTS.</h1>
+            <p>Our industrial equipment keeps your business moving forward.</p>
+            <button><a href="https://wa.link/58on1d" class="explore">Explore Now</a></button>
+            <p>9579618751 / 9075866419</p>
+        </div>
+        <span class="menu-icon" onclick="openNav()">&#9776;</span>
+    </section>
+    <nav id="side-nav" class="side-nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="contact-title">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="address">
+                    <h2>Better yet, see us in person!</h2>
+                    <p>We love our customers, so feel free to visit during normal business hours.</p>
+                    <p>Address: Gat No. 147, Behind Abhishek Restaurant, Opp. Kailash Vahan Udyog Ltd. Alandi Markal Road, Tal Khed, Dist-Pune -412105</p>
+                    <p>Phone: 9579618751</p>
+                    <button class="message"><a href="https://wa.link/58on1d" class="a">Contact us on WhatsApp</a></button>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
+
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+
+                        <label for="question">Question *</label>
+                        <textarea id="question" name="question" required></textarea>
+
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-margin">
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 SK Industries. All rights reserved.</p>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("side-nav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("side-nav").style.width = "0";
+        }
+    </script>
+</body>
+</html>
